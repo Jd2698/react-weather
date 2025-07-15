@@ -7,3 +7,7 @@ Consumir API para mostrar el clima de una ciudad
 - Conseguir apikey en `https://openweathermap.org/` 
 - Descargar dependencias `npm run install'
 - Ejecutar el proyecto `npm run dev'
+
+## Image
+
+![image showing weather cali](public/picture.jpg)
