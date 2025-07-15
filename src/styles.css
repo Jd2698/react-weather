@@ -1,0 +1,52 @@
+.dark-mode {
+  background: #121212;
+  color: #fefefe;
+}
+
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.container form {
+  display: flex;
+  box-shadow: 0 0 15px 0 #9a9a9a;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+form input {
+  padding: 0.6rem;
+}
+
+form input[type="text"] {
+  flex-basis: 80%;
+  border: none;
+}
+
+form input[type="submit"] {
+  outline: none;
+  border: none;
+  flex-basis: 20%;
+}
+
+.container-weather {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.container-weather .item {
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+
+.green {
+  background-color: rgb(114, 189, 114);
+}
+
+.blue {
+  background-color: rgb(102, 168, 199);
+}
